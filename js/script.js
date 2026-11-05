@@ -1,0 +1,1 @@
+document.querySelectorAll("form").forEach(f=>f.addEventListener("submit",e=>{e.preventDefault();let t=document.getElementById("toast");if(t){t.textContent="✓ Booking request submitted successfully!";t.style.display="block";setTimeout(()=>t.style.display="none",3000)}}));
